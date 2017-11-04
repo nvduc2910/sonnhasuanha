@@ -979,9 +979,15 @@ p{
 	.songiada-slide{
 		display: block!important;
 	}
+
 }
 
 @media (max-width: 767px) {
+	.image-response {
+	max-height: 500px!important;
+	min-height: 500px!important;
+    overflow: hidden;
+	}
 	.avatar{
     display: block;
     width: 20%;
@@ -1038,6 +1044,15 @@ p{
 	}
 	.gioi-thieu{
 		padding-top: 120px!important;
+	}
+	.table-responsive{
+		max-width: 98%!important;
+	}
+	.table-responsive .table {
+		table-layout: fixed; width: 100%
+	}
+	.table-responsive>.table>tbody>tr>td{
+		white-space: initial!important;
 	}
 }
 
